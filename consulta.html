@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Consultas</title>
+  <link rel="stylesheet" href="consultas.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Consultas Agendadas</h2>
+
+
+<input 
+  type="text" 
+  id="busca" 
+  placeholder="Pesquisar por nome, especialidade ou data" 
+  onkeyup="buscarConsultas()"
+/>
+
+
+
+    <table border="1" width="100%" id="tabela-consultas">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Especialidade</th>
+          <th>Data</th>
+          <th>Hora</th>
+          <th>Ações</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="consultas.js"></script>
+</body>
+</html>
