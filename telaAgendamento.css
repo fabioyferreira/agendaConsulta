@@ -3,6 +3,19 @@ body {
   background-color: #f4f6f8;
 }
 
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  background-color: #78e9cd;
+  padding: 20px;
+  list-style: none;
+  color: black;
+}
+
+
 .container {
   width: 400px;
   margin: 50px auto;

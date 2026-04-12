@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>Lista de Consultas</title>
   <link rel="stylesheet" href="consultas.css">
 </head>
+
 <body>
+
+  <nav class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="telaAgendamento.html">Agendar</a></li>
+    <li><a href="consulta.html">Consultas</a></li>
+    <li><a href="telaLogin.html">Login</a></li>
+
+  </nav>
 
   <div class="container">
     <h2>Consultas Agendadas</h2>
 
 
-<input 
-  type="text" 
-  id="busca" 
-  placeholder="Pesquisar por nome, especialidade ou data" 
-  onkeyup="buscarConsultas()"
-/>
+    <input type="text" id="busca" placeholder="Pesquisar por nome, especialidade ou data" onkeyup="buscarConsultas()" />
 
 
 
@@ -39,4 +44,5 @@
 
   <script src="consultas.js"></script>
 </body>
+
 </html>
