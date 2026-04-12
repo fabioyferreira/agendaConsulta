@@ -5,7 +5,7 @@ table {
 
 th {
   background-color: #c6ece1;
-  color: white;
+  color: rgb(3, 3, 3); /*muda a cor do cabecalho da tabela*/
 }
 
 td, th {
